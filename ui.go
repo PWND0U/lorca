@@ -8,7 +8,7 @@ import (
 	"os"
 	"reflect"
 )
-
+var AllowAllOrigins = "--remote-allow-origins=*"
 // UI interface allows talking to the HTML5 UI from Go.
 type UI interface {
 	Load(url string) error
